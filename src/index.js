@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 //import * as serviceWorker from './serviceWorker';
 import reportWebVitals from './reportWebVitals';
-//import HelloComponent from './components/HelloComponent';
 import Image from './Image';
 import List from './List';
 import Test from './Test';
+import HelloComponent from './components/HelloComponent';
+import Login from './Login';
 //import { ReactComponent } from '*.svg';
 
 //const Hello = () => {
@@ -21,10 +22,15 @@ import Test from './Test';
   //</React.StrictMode>,
   //document.getElementById('root')
 //);
+ReactDOM.render(<Login/>, document.getElementById('root'));
+//ReactDOM.render(<Formlogin/>, document.getElementById('root'));
+//ReactDOM.render(<List />, document.getElementById('root'));
+//ReactDOM.render(<App />, document.getElementById('root'));
 
-ReactDOM.render(<List />, document.getElementById('root'));
-ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<Test />, document.getElementById('root'));
+//ReactDOM.render(<Test />, document.getElementById('root'));
+
+//ReactDOM.render(<HelloComponent />, document.getElementById('root'));
+
 //ReactDOM.render(<Hello />, document.getElementById('root'));
 
 //ReactDOM.render(<App/>, document.getElementById('root'));
