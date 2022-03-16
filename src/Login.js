@@ -1,7 +1,6 @@
 import React from "react";
-
 import Formlogin from './components/FormLogin'
-import './Login.css';
+import './Login.css'
 
 function Login() {
     return (

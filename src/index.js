@@ -9,6 +9,10 @@ import List from './List';
 import Test from './Test';
 import HelloComponent from './components/HelloComponent';
 import Login from './Login';
+import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import BlogPost from './container/BlogPost/BlogPost';
+import BlogPostMahasiswa from './container/BlogPost/BlogPostMahasiswa';
 //import { ReactComponent } from '*.svg';
 
 //const Hello = () => {
@@ -22,7 +26,9 @@ import Login from './Login';
   //</React.StrictMode>,
   //document.getElementById('root')
 //);
-ReactDOM.render(<Login/>, document.getElementById('root'));
+//ReactDOM.render(<BlogPost/>, document.getElementById('content'));
+ReactDOM.render(<BlogPostMahasiswa/>, document.getElementById('content'));
+//ReactDOM.render(<Login/>, document.getElementById('root'));
 //ReactDOM.render(<Formlogin/>, document.getElementById('root'));
 //ReactDOM.render(<List />, document.getElementById('root'));
 //ReactDOM.render(<App />, document.getElementById('root'));
